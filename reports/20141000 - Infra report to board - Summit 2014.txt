@@ -1,0 +1,61 @@
+Order of the Bee
+================
+
+INFRA - Infrastructure Committee Report - Summit 2014
+-----------------------------------------------------
+
+
+DRAFT VERSION
+
+
+Chair: Not determined
+
+Committee Description: Define an architecture, select tools, maintain the site. Implement business requirements given to you by the other sub-committees. Live Showcase idea. DNS and Mailing List administration.
+
+Progress on the actions:
+
+* Define an architecture
+
+    No decisions on architecture have been taken yet, although MC has been working on a
+    puppet/vagrant based system for creating a distribution for the DISTRO committee, and 
+    this has dual functionality for deploying/provisioning the distribution, so therefore
+    it is quite likely that we will drink our own nectar and attempt to use this 
+    distribution (or dev versions of it) to provide our own alfresco instances.
+
+    MC is currently running a small test vm which could be used to provide a small instance
+    of Alfresco, currently it is based on Ubuntu 14.04.
+
+    We might alternatively seek to attain a sponsored platform from one of the companies
+    which has members with the Order
+
+* Select tools
+
+    Mailman was chosen for mailing lists, although prior to this we started to use github
+    issues for this purpose. TO BE DISCUSSED: MC considers that mailing lists with published
+    archives should replace the github issues for committee discussions.
+
+    DNS is held at Cloudflare 
+
+* Maintain the site
+
+    Maintenance of the site was delegated to the github website hosting capabilities
+
+* Implement business requirements
+
+    None received yet
+
+* Live showcase idea
+
+    Not discussed or implemented yet.
+
+* DNS administration
+
+    DNS is currently delegated to Cloudflare, however this is currently under MC's personal
+    cloudflare account and we should move it to an account controlled by this committee
+
+* Mailing list administration
+
+    This has been provided by Xtreamlab.net - MC has admin permission to create and maintain
+    mailing lists. MC will ask Xtreamlab if it is possible to share these credentials with
+    the INFRA committee and does not expect any problem with that.
+
